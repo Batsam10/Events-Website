@@ -1,0 +1,13 @@
+<div class='col-md-4'>
+	<div class='event-card'>
+		<div class='event-card-head'>
+			<img src='{{image}}'>
+		</div>
+		<div class='event-card-body'>
+			<h3>
+				<a href="/{{route}}">{{ title }}</a>
+			</h3>
+			<p>{{frappe.format_date(doc.date) }}</p>
+		</div>
+	</div>
+</div>
